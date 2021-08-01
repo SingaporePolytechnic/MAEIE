@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+
+.fct-start .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.fct-start{
+	font-size:18px;
+		font-family: 'Raleway', sans-serif;
+}
+.fct-start .container{
+	padding:0 15px;
+}
+.fct-start p:last-child{
+	margin-bottom:0;
+}
+
+.f-29{
+	font-size:29px;
+}
+.l-btn{
+	max-width:274px;
+	width:100%;
+}
+.black-bg{
+	background: #2a3b40b8;
+	color:#fff;
+}
+.fct-mid .fct-mid-data>* {
+    position: relative;
+    padding-bottom: 25px;
+	overflow: hidden;
+
+}
+.fct-mid-data h2 {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	z-index:99;
+}
+.fct-top{
+	background:url(../images/fct-banner-bg.jpg) no-repeat left bottom / 100%;
+}
+.fct-mid-data{
+	
+}
+.fct-mid .fct-mid-data>* .zoom-effect{
+	 overflow: hidden;
+	 display:block;
+}
+.fct-mid .fct-mid-data>* .zoom-effect img{
+	  transition: transform .2s; /* Animation */
+}
+.fct-mid-data .zoom-effect:hover img{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/** footer**/
+.footer-top{
+	background:#2a3b40;
+}
+.f-inner{
+	background:#d9dcdd;
+	color:#2a3b40;
+}
+.btn-blue{
+	background:#0fa2c7;
+	color:#fff;
+    border-radius: 0;
+	padding:15px 50px;
+}
+.btn-blue:hover{
+	background:#c79e0f;
+	color:#fff;
+}
+.social-icon a{
+	    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #fff;
+    color: #2a3b40;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+@media only screen and (max-width: 767px) {
+	.fct-mid .fct-mid-data>* .zoom-effect {
+		overflow: hidden;
+		display: block;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}

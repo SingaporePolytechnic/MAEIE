@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+
+.cmp-start .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.cmp-start{
+	font-size:18px;
+		font-family: 'Raleway', sans-serif;
+}
+.cmp-start .container{
+	padding:0 15px;
+}
+.cmp-start p:last-child{
+	margin-bottom:0;
+}
+
+.f-29{
+	font-size:29px;
+}
+.l-btn{
+	max-width:274px;
+	width:100%;
+}
+.white-bg{
+	background: #ffffffc9;
+}
+.cmp-img-box .col-5{
+	width:20%;
+}
+.cmp-mid-inner:nth-child(odd){
+	background:#edf4f6;
+}
+.cmp-mid-inner .setion-title {
+    font-size: 29px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.cmp-mid-inner .setion-title:after {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 3px;
+    background: #0fa2c7;
+    bottom: 0;
+    left: 0px;
+}
+.cmp-text-section{
+	background:url(../images/cmp-img-bg.jpg) no-repeat left top /cover;
+}
+
+/** footer**/
+.footer-top{
+	background:#2a3b40;
+}
+.f-inner{
+	background:#d9dcdd;
+	color:#2a3b40;
+}
+.btn-blue{
+	background:#0fa2c7;
+	color:#fff;
+    border-radius: 0;
+	padding:15px 50px;
+}
+.btn-blue:hover{
+	background:#c79e0f;
+	color:#fff;
+}
+.social-icon a{
+	    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #fff;
+    color: #2a3b40;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 48px;
+}
+@media only screen and (max-width: 767px) {
+	.cmp-img-box .col-5{width:100%;padding:15px;text-align:center}
+	.setion-title{padding-top:20px}
+}

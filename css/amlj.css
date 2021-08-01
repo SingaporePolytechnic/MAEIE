@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+
+.amlj-start .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.amlj-start{
+	font-size:18px;
+		font-family: 'Raleway', sans-serif;
+}
+.amlj-start .container{
+	padding:0 15px;
+}
+.amlj-start p:last-child{
+	margin-bottom:0;
+}
+
+.f-29{
+	font-size:29px;
+}
+.l-btn{
+	max-width:274px;
+	width:100%;
+}
+.amlj-img-text{
+	background:#2a3b40;
+	color:#fff;
+}
+.amlj-zoon{
+	background:url(../images/amlj-img3.jpg) no-repeat left top /cover;
+}
+.amlj-zoon h3{max-width:650px;}
+.gray-bg {
+    background: #2a3b40a6;
+}
+.white-bg{
+	background: #ffffffd9;
+}
+/*slider css**/
+.owl-theme .owl-buttons {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+}
+.owl-carousel .owl-buttons button.owl-next, .owl-carousel .owl-buttons button.owl-prev {
+    border-radius: 0;
+    font-size: 16px;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    color: #007c89;
+    border-radius: 100%;
+    border: 1px solid #007c89;
+}
+
+.counter-col{display:flex;font-weight:bold;line-height:30px;align-items:center}
+.counter-col .date{    
+	font-family: 'Roboto', sans-serif;
+	font-size:100px;
+	display:block;
+	line-height:normal;
+	padding-right:10px;
+}
+.partners-logo-row{background: #f6f6f6;}
+.partners-logo-row .row{margin:0 -1px;}
+.partners-logo-row .row>* {
+    padding: 0;
+    border: 1px solid transparent;
+}
+.gallery-grid .gallery-img>*{
+	padding-bottom:25px;
+}
+/** flip-box**/
+.flip-box {
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+	position:absolute;
+  transform: rotateY(180deg);
+  top:0;
+  
+}
+.flip-box-back a {
+    color: #fff;
+    font-size: 25px;
+    vertical-align: middle;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.flip-box-inner .org-bg{
+	background:#F27F25
+}
+
+.flip-box-inner .gray-bg{
+	background:#747578
+}
+
+.flip-box-inner .yellow-bg{
+	background:#FFD016
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+/* Style the buttons */
+.gallery-nav .btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.gallery-nav .btn:hover {
+  background-color: #ddd;
+}
+
+.gallery-nav .btn.active {
+  background-color: #666;
+  color: white;
+}
+/** footer**/
+.footer-top{
+	background:#2a3b40;
+}
+.f-inner{
+	background:#d9dcdd;
+	color:#2a3b40;
+}
+.btn-blue{
+	background:#0fa2c7;
+	color:#fff;
+    border-radius: 0;
+	padding:15px 50px;
+}
+.btn-blue:hover{
+	background:#c79e0f;
+	color:#fff;
+}
+.social-icon a{
+	    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #fff;
+    color: #2a3b40;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 48px;
+}
+@media only screen and (max-width: 767px) {
+.partners-logo-row img{width:100%;}
+.amlj-zoon{background-position:center cetner}
+}
